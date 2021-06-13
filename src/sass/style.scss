@@ -1,4 +1,9 @@
-@import 'layout';
+@import 'normalize','layout','homepage';
+
+:root{
+  --text: #222;
+}
+
 
 body {
   font-family: sans-serif;
