@@ -1,0 +1,19 @@
+.button{
+    display: inline-block;
+    width: 240px;
+    padding: 12px 6px;
+    background-color: var(--gold);
+    color: var(--text);
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin: .5rem;
+    border-radius: .25rem;
+    transition: var(--hover);
+    box-shadow: var(--idle-shadow);
+}
+
+.button:hover{
+box-shadow: var(--active-shadow);
+background-color: var(--darkgold);
+}
